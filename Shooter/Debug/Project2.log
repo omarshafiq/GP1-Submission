@@ -1,0 +1,33 @@
+﻿Build started 14/04/2015 16:29:53.
+     1>Project "C:\Users\User\documents\visual studio 2013\Projects\Project2\Project2\Project2.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\User\documents\visual studio 2013\Projects\Project2\Debug\Project2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\User\documents\visual studio 2013\Projects\Project2\Debug\Project2.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\User\documents\visual studio 2013\Projects\Project2\Debug\Project2.lib" /MACHINE:X86 Debug\shooterGame.obj
+         Debug\cTarget.obj
+         Debug\cBkGround.obj
+         Debug\cBullet.obj
+         Debug\cFont.obj
+         Debug\cFontMgr.obj
+         Debug\cInputMgr.obj
+         Debug\cPlayer.obj
+         Debug\cSound.obj
+         Debug\cSoundMgr.obj
+         Debug\cSprite.obj
+         Debug\cTexture.obj
+         Debug\cWNDManager.obj
+         Debug\main.obj
+         Debug\windowOGL.obj
+         Libraries\alut.lib
+         Libraries\DevIL.lib
+         Libraries\freeglut.lib
+         Libraries\ftgl.lib
+         Libraries\ILU.lib
+         Libraries\ILUT.lib
+         Libraries\OpenAL32.lib
+     1>cPlayer.obj : error LNK2001: unresolved external symbol "class std::vector<class cTarget *,class std::allocator<class cTarget *> > theTargets" (?theTargets@@3V?$vector@PAVcTarget@@V?$allocator@PAVcTarget@@@std@@@std@@A)
+     1>main.obj : error LNK2001: unresolved external symbol "class std::vector<class cTarget *,class std::allocator<class cTarget *> > theTargets" (?theTargets@@3V?$vector@PAVcTarget@@V?$allocator@PAVcTarget@@@std@@@std@@A)
+     1>C:\Users\User\documents\visual studio 2013\Projects\Project2\Debug\Project2.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "C:\Users\User\documents\visual studio 2013\Projects\Project2\Project2\Project2.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.43
